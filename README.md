@@ -28,7 +28,7 @@ cmake --build build -j
 ```
 
 ## Flags
---years   number of planning years to simulate event timelines for (default 1)
---sims    number of Monte Carlo simulations for annual LDA percentiles (default 20000)
---seed    RNG seed (default 12345)
---outdir  output directory (default out)
+* `--years`   number of planning years to simulate event timelines for (default 1)
+* `--sims`    number of Monte Carlo simulations for annual LDA percentiles (default 20000)
+* `--seed`    RNG seed (default 12345)
+* `--outdir`  output directory (default out)
