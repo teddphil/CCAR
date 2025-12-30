@@ -1,6 +1,6 @@
 # CCAR Operational Loss Aggregator (C++)
 
-Simulates operational loss events (Cyber, Fraud, Algorithmic Trading) and aggregates them into a CCAR-like capital plan format using an LDA.
+Simulates operational loss events (Cyber, Fraud, Algorithmic Trading) and aggregates them into a CCAR-like capital plan format using an Loss Distribution Approach (LDA).
 
 ## LDA model
 For each risk type r:
