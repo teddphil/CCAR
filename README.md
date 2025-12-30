@@ -16,12 +16,16 @@ Monte Carlo simulations generate the loss distribution and compute percentiles f
 - lda_summary.csv: annual loss distribution percentiles by risk type (P50, P90, P95, P99, P99.9)
 
 ## Build
+```
 mkdir -p build
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
+```
 
 ## Run
+```
 ./build/ccar_ola --years 1 --sims 20000 --seed 42 --outdir out
+```
 
 ## Flags
 --years   number of planning years to simulate event timelines for (default 1)
