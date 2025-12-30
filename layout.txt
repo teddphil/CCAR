@@ -1,0 +1,16 @@
+ccar-operational-loss-aggregator/
+  CMakeLists.txt
+  README.md
+  include/
+    types.hpp
+    rng.hpp
+    distributions.hpp
+    simulator.hpp
+    aggregator.hpp
+    io.hpp
+  src/
+    distributions.cpp
+    simulator.cpp
+    aggregator.cpp
+    io.cpp
+    main.cpp
