@@ -1,7 +1,7 @@
-# CCAR Operational Loss Aggregator (C++)
+# CCAR Operational Loss Aggregator
 
 ### Overview
-The project simulates operational loss events, such as cyber / fraud / algorithmic trading, and aggregates them into a **C**omprehensive **C**apital **A**nalysis and **R**eview (CCAR)-like capital plan format using an **L**oss **D**istribution **A**pproach (LDA). It uses Monte Carlo simulations to generate the loss distribution and compute percentiles for CCAR-style capital planning.
+The C++ project simulates operational loss events, such as cyber / fraud / algorithmic trading, and aggregates them into a **C**omprehensive **C**apital **A**nalysis and **R**eview (CCAR)-like capital plan format using an **L**oss **D**istribution **A**pproach (LDA). It uses Monte Carlo simulations to generate the loss distribution and compute percentiles for CCAR-style capital planning.
 
 ### Models
 For each risk type $r$, there are
